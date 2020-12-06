@@ -1,5 +1,6 @@
 use aoc_runner_derive::{aoc, aoc_generator};
 use regex::Regex;
+
 #[derive(Debug)]
 pub struct Passport {
     birth_year: Option<String>,
